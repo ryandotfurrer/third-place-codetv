@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache directories
+.cache/
+.eslintcache
+
+# Environment variables
+.env*
+
+# OS generated files
+.DS_Store
+
+# Logs
+*.log
+
+# Git
+.git/
+
+# Generated files
+*.min.js
+*.min.css

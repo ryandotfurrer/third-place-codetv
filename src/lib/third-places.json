@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Powell's City of Books",
+    "type": "Bookstore",
+    "address": "1005 W Burnside St, Portland, OR 97209",
+    "website": "https://www.powells.com/",
+    "cost": 2,
+    "image": "/images/powells-books.jpg"
+  },
+  {
+    "name": "Laurelhurst Park",
+    "type": "Park",
+    "address": "SE Cesar E Chavez Blvd & Stark St, Portland, OR 97214",
+    "website": "https://www.portland.gov/parks/laurelhurst-park",
+    "cost": 1,
+    "image": "/images/laurelhurst-park.jpg"
+  },
+  {
+    "name": "Portland Japanese Garden",
+    "type": "Garden",
+    "address": "611 SW Kingston Ave, Portland, OR 97205",
+    "website": "https://japanesegarden.org/",
+    "cost": 3,
+    "image": "/images/japanese-garden.jpg"
+  },
+  {
+    "name": "Peninsula Park",
+    "type": "Park",
+    "address": "700 N Rosa Parks Way, Portland, OR 97217",
+    "website": "https://www.portland.gov/parks/peninsula-park",
+    "cost": 1,
+    "image": "/images/peninsula-park.jpg"
+  },
+  {
+    "name": "Forest Park",
+    "type": "Park",
+    "address": "NW 29th Ave & Upshur St, Portland, OR 97210",
+    "website": "https://www.forestparkconservancy.org/",
+    "cost": 1,
+    "image": "/images/forest-park.jpg"
+  },
+  {
+    "name": "Portland Community Centers",
+    "type": "Community Center",
+    "address": "Multiple locations",
+    "website": "https://www.portland.gov/parks/community-centers",
+    "cost": 1,
+    "image": "/images/community-centers.jpg"
+  },
+  {
+    "name": "Guardian Games",
+    "type": "Game Store",
+    "address": "345 SE Taylor St, Portland, OR 97214",
+    "website": "https://www.ggportland.com/",
+    "cost": 2,
+    "image": "/images/guardian-games.jpg"
+  },
+  {
+    "name": "Mother Foucault's Bookshop",
+    "type": "Bookstore",
+    "address": "523 SE Morrison St, Portland, OR 97214",
+    "website": "https://www.motherfoucaultsbookshop.com/",
+    "cost": 2,
+    "image": "/images/mother-foucaults.jpg"
+  },
+  {
+    "name": "QuarterWorld Arcade",
+    "type": "Arcade",
+    "address": "4811 SE Hawthorne Blvd, Portland, OR 97215",
+    "website": "https://www.quarterworldarcade.com/",
+    "cost": 2,
+    "image": "/images/quarterworld-arcade.jpg"
+  },
+  {
+    "name": "Portland Farmers Market",
+    "type": "Farmers Market",
+    "address": "1803 SW Park Ave, Portland, OR 97201",
+    "website": "https://www.portlandfarmersmarket.org/",
+    "cost": 2,
+    "image": "/images/farmers-market.jpg"
+  },
+  {
+    "name": "Sellwood Community House",
+    "type": "Community Center",
+    "address": "1436 SE Spokane St, Portland, OR 97202",
+    "website": "https://sellwoodcommunityhouse.org/",
+    "cost": 1,
+    "image": "/images/sellwood-community.jpg"
+  },
+  {
+    "name": "Pioneer Courthouse Square",
+    "type": "Public Square",
+    "address": "701 SW 6th Ave, Portland, OR 97205",
+    "website": "https://thesquarepdx.org/",
+    "cost": 1,
+    "image": "/images/pioneer-square.jpg"
+  },
+  {
+    "name": "Portland Saturday Market",
+    "type": "Market",
+    "address": "2 SW Naito Pkwy, Portland, OR 97204",
+    "website": "https://www.portlandsaturdaymarket.com/",
+    "cost": 2,
+    "image": "/images/saturday-market.jpg"
+  },
+  {
+    "name": "Mt. Tabor Park",
+    "type": "Park",
+    "address": "SE 60th Ave & Salmon St, Portland, OR 97215",
+    "website": "https://www.portland.gov/parks/mt-tabor-park",
+    "cost": 1,
+    "image": "/images/mt-tabor.jpg"
+  },
+  {
+    "name": "Tom McCall Waterfront Park",
+    "type": "Park",
+    "address": "98 SW Naito Pkwy, Portland, OR 97204",
+    "website": "https://www.portland.gov/parks/tom-mccall-waterfront-park",
+    "cost": 1,
+    "image": "/images/waterfront-park.jpg"
+  },
+  {
+    "name": "Hoyt Arboretum",
+    "type": "Arboretum",
+    "address": "4000 SW Fairview Blvd, Portland, OR 97221",
+    "website": "https://www.hoytarboretum.org/",
+    "cost": 1,
+    "image": "/images/hoyt-arboretum.jpg"
+  },
+  {
+    "name": "International Rose Test Garden",
+    "type": "Garden",
+    "address": "400 SW Kingston Ave, Portland, OR 97205",
+    "website": "https://www.portland.gov/parks/international-rose-test-garden",
+    "cost": 1,
+    "image": "/images/rose-garden.jpg"
+  },
+  {
+    "name": "South Park Blocks",
+    "type": "Park",
+    "address": "SW Park Ave, Portland, OR 97201",
+    "website": "https://www.portland.gov/parks/south-park-blocks",
+    "cost": 1,
+    "image": "/images/south-park-blocks.jpg"
+  },
+  {
+    "name": "North Park Blocks",
+    "type": "Park",
+    "address": "NW Park Ave & NW Couch St, Portland, OR 97209",
+    "website": "https://www.portland.gov/parks/north-park-blocks",
+    "cost": 1,
+    "image": "/images/north-park-blocks.jpg"
+  },
+  {
+    "name": "Jamison Square",
+    "type": "Public Square",
+    "address": "810 NW 11th Ave, Portland, OR 97209",
+    "website": "https://www.portland.gov/parks/jamison-square",
+    "cost": 1,
+    "image": "/images/jamison-square.jpg"
+  },
+  {
+    "name": "Tanner Springs Park",
+    "type": "Park",
+    "address": "NW 10th Ave & Marshall St, Portland, OR 97209",
+    "website": "https://www.portland.gov/parks/tanner-springs-park",
+    "cost": 1,
+    "image": "/images/tanner-springs.jpg"
+  },
+  {
+    "name": "The Fields Park",
+    "type": "Park",
+    "address": "1099 NW Overton St, Portland, OR 97209",
+    "website": "https://www.portland.gov/parks/fields-park",
+    "cost": 1,
+    "image": "/images/fields-park.jpg"
+  },
+  {
+    "name": "Timberline Lodge",
+    "type": "Lodge",
+    "address": "27500 E Timberline Rd, Government Camp, OR 97028",
+    "website": "https://www.timberlinelodge.com/",
+    "cost": 4,
+    "image": "/images/timberline-lodge.jpg"
+  },
+  {
+    "name": "The Zipper",
+    "type": "Food Hall",
+    "address": "2724 NE Sandy Blvd, Portland, OR 97232",
+    "website": "https://www.zipperpdx.com/",
+    "cost": 3,
+    "image": "/images/the-zipper.jpg"
+  },
+  {
+    "name": "Common Ground Wellness Cooperative",
+    "type": "Wellness Center",
+    "address": "5010 NE 33rd Ave, Portland, OR 97211",
+    "website": "https://www.commongroundwellness.com/",
+    "cost": 2,
+    "image": "/images/common-ground.jpg"
+  },
+  {
+    "name": "Lloyd Center Mall",
+    "type": "Mall",
+    "address": "2201 Lloyd Center, Portland, OR 97232",
+    "website": "https://www.lloydcenter.com/",
+    "cost": 2,
+    "image": "/images/lloyd-center.jpg"
+  },
+  {
+    "name": "Reed College Canyon",
+    "type": "Nature Area",
+    "address": "3203 SE Woodstock Blvd, Portland, OR 97202",
+    "website": "https://www.reed.edu/canyon/",
+    "cost": 1,
+    "image": "/images/reed-canyon.jpg"
+  },
+  {
+    "name": "Portland Art Museum",
+    "type": "Museum",
+    "address": "1219 SW Park Ave, Portland, OR 97205",
+    "website": "https://portlandartmuseum.org/",
+    "cost": 3,
+    "image": "/images/art-museum.jpg"
+  },
+  {
+    "name": "Multnomah County Central Library",
+    "type": "Library",
+    "address": "801 SW 10th Ave, Portland, OR 97205",
+    "website": "https://multcolib.org/locations/central",
+    "cost": 1,
+    "image": "/images/central-library.jpg"
+  },
+  {
+    "name": "Hollywood Theatre",
+    "type": "Theater",
+    "address": "4122 NE Sandy Blvd, Portland, OR 97212",
+    "website": "https://hollywoodtheatre.org/",
+    "cost": 2,
+    "image": "/images/hollywood-theatre.jpg"
+  },
+  {
+    "name": "Academy Theater",
+    "type": "Theater",
+    "address": "7818 SE Stark St, Portland, OR 97215",
+    "website": "https://www.academytheaterpdx.com/",
+    "cost": 2,
+    "image": "/images/academy-theater.jpg"
+  },
+  {
+    "name": "Ground Kontrol",
+    "type": "Arcade",
+    "address": "115 NW 5th Ave, Portland, OR 97209",
+    "website": "https://groundkontrol.com/",
+    "cost": 2,
+    "image": "/images/ground-kontrol.jpg"
+  },
+  {
+    "name": "Wedgehead",
+    "type": "Pinball Bar",
+    "address": "3728 NE Sandy Blvd, Portland, OR 97232",
+    "website": "https://www.wedgeheadpdx.com/",
+    "cost": 3,
+    "image": "/images/wedgehead.jpg"
+  },
+  {
+    "name": "Next Level Pinball Shop",
+    "type": "Arcade",
+    "address": "1458 NE 122nd Ave, Portland, OR 97230",
+    "website": "https://www.nextlevelpinballmuseum.com/",
+    "cost": 2,
+    "image": "/images/next-level-pinball.jpg"
+  },
+  {
+    "name": "C-Bar",
+    "type": "Bar/Arcade",
+    "address": "2880 SE Gladstone St, Portland, OR 97202",
+    "website": "https://www.cbarportland.com/",
+    "cost": 3,
+    "image": "/images/c-bar.jpg"
+  },
+  {
+    "name": "Floating World Comics",
+    "type": "Comic Book Store",
+    "address": "400 NW Couch St, Portland, OR 97209",
+    "website": "https://www.floatingworldcomics.com/",
+    "cost": 2,
+    "image": "/images/floating-world.jpg"
+  },
+  {
+    "name": "Bike Farm",
+    "type": "Community Bike Shop",
+    "address": "1810 NE 1st Ave, Portland, OR 97212",
+    "website": "https://www.bikefarm.org/",
+    "cost": 1,
+    "image": "/images/bike-farm.jpg"
+  },
+  {
+    "name": "Fred Meyer (various locations)",
+    "type": "Grocery Store",
+    "address": "Multiple locations",
+    "website": "https://www.fredmeyer.com/",
+    "cost": 2,
+    "image": "/images/fred-meyer.jpg"
+  },
+  {
+    "name": "Tea Chai Té",
+    "type": "Tea House",
+    "address": "734 NW 23rd Ave, Portland, OR 97210",
+    "website": "https://www.teachaite.com/",
+    "cost": 2,
+    "image": "/images/tea-chai-te.jpg"
+  },
+  {
+    "name": "Stumptown Coffee Roasters",
+    "type": "Coffee Shop",
+    "address": "128 SW 3rd Ave, Portland, OR 97204",
+    "website": "https://www.stumptowncoffee.com/",
+    "cost": 2,
+    "image": "/images/stumptown.jpg"
+  },
+  {
+    "name": "Coava Coffee Roasters",
+    "type": "Coffee Shop",
+    "address": "1300 SE Grand Ave, Portland, OR 97214",
+    "website": "https://www.coavacoffee.com/",
+    "cost": 2,
+    "image": "/images/coava.jpg"
+  },
+  {
+    "name": "Barista",
+    "type": "Coffee Shop",
+    "address": "539 NW 13th Ave, Portland, OR 97209",
+    "website": "https://www.baristapdx.com/",
+    "cost": 2,
+    "image": "/images/barista.jpg"
+  },
+  {
+    "name": "Pip's Original Doughnuts & Chai",
+    "type": "Cafe",
+    "address": "4759 NE Fremont St, Portland, OR 97213",
+    "website": "https://www.pipsoriginal.com/",
+    "cost": 2,
+    "image": "/images/pips-donuts.jpg"
+  },
+  {
+    "name": "The Great North",
+    "type": "Coffee Shop",
+    "address": "7373 N Burlington Ave, Portland, OR 97203",
+    "website": "https://www.thegreatnorthpdx.com/",
+    "cost": 2,
+    "image": "/images/great-north.jpg"
+  },
+  {
+    "name": "Leisure Public House",
+    "type": "Bar",
+    "address": "8002 N Lombard St, Portland, OR 97203",
+    "website": "https://www.leisurepublichouse.com/",
+    "cost": 3,
+    "image": "/images/leisure-public.jpg"
+  },
+  {
+    "name": "Portland Mercado",
+    "type": "Food Hall",
+    "address": "7238 SE Foster Rd, Portland, OR 97206",
+    "website": "https://www.portlandmercado.org/",
+    "cost": 2,
+    "image": "/images/portland-mercado.jpg"
+  },
+  {
+    "name": "Cartopia Food Carts",
+    "type": "Food Cart Pod",
+    "address": "1207 SE Hawthorne Blvd, Portland, OR 97214",
+    "website": "https://www.cartopiapdx.com/",
+    "cost": 2,
+    "image": "/images/cartopia.jpg"
+  },
+  {
+    "name": "Pine Street Market",
+    "type": "Food Hall",
+    "address": "126 SW 2nd Ave, Portland, OR 97204",
+    "website": "https://www.pinestreetpdx.com/",
+    "cost": 3,
+    "image": "/images/pine-street-market.jpg"
+  },
+  {
+    "name": "Mississippi Studios",
+    "type": "Music Venue",
+    "address": "3939 N Mississippi Ave, Portland, OR 97227",
+    "website": "https://www.mississippistudios.com/",
+    "cost": 3,
+    "image": "/images/mississippi-studios.jpg"
+  },
+  {
+    "name": "Sauvie Island",
+    "type": "Nature Area",
+    "address": "NW Sauvie Island Rd, Portland, OR 97231",
+    "website": "https://sauvieisland.org/",
+    "cost": 1,
+    "image": "/images/sauvie-island.jpg"
+  },
+  {
+    "name": "Eastbank Esplanade",
+    "type": "Trail",
+    "address": "SE Water Ave & SE Salmon St, Portland, OR 97214",
+    "website": "https://www.portland.gov/parks/eastbank-esplanade",
+    "cost": 1,
+    "image": "/images/eastbank-esplanade.jpg"
+  }
+]
