@@ -8,14 +8,12 @@ function Card(props) {
           <h2 className="text-xl">{props.placeName}</h2>
         </a>
         <a>
-          <address className="text-sm not-italic outline">
-            {props.address}
-          </address>
+          <address className="text-sm not-italic">{props.address}</address>
         </a>
       </header>
       <div className="md:h-fit md:justify-self-end">
-        {/* <span>free</span> */}
-        <div className="text-background w-fit rounded-md bg-amber-800 px-2 py-1">
+        <span>free</span>
+        <div className="text-background w-fit rounded-md bg-amber-950/80 px-2 py-1">
           <span className="text-white">$</span>
           <span>$</span>
           <span>$</span>
