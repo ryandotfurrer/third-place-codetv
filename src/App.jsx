@@ -112,17 +112,25 @@ function App() {
   }
 
   async function getFree() {
-  const keywords = ["library", "park", "church", "mosque", "synagogue", "hindu_temple", "shopping_mall"];
-  const allResults = [];
+    const keywords = [
+      "library",
+      "park",
+      "church",
+      "mosque",
+      "synagogue",
+      "hindu_temple",
+      "shopping_mall",
+    ];
+    const allResults = [];
 
-  for (const term of keywords) {
-    const res = await fetch("http://localhost:4000/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        query: `query SearchForPlace($query: String) {
+    for (const term of keywords) {
+      const res = await fetch("http://localhost:4000/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query: `query SearchForPlace($query: String) {
           searchForPlace(query: $query) {
             displayName {
               text
@@ -136,30 +144,27 @@ function App() {
             }
           }
         }`,
-        variables: {
-          query: term,
-        },
-      }),
-    });
+          variables: {
+            query: term,
+          },
+        }),
+      });
 
-    const json = await res.json();
-    const results = json.data.searchForPlace;
+      const json = await res.json();
+      const results = json.data.searchForPlace;
 
-    const parsed = results.map((place) => ({
-      name: place.displayName.text,
-      address: place.formattedAddress,
-      type: place.primaryType,
-      image: place.photos?.[0]?.url || "default.jpg",
-    }));
+      const parsed = results.map((place) => ({
+        name: place.displayName.text,
+        address: place.formattedAddress,
+        type: place.primaryType,
+        image: place.photos?.[0]?.url || "default.jpg",
+      }));
 
-    allResults.push(...parsed);
+      allResults.push(...parsed);
+    }
+
+    setPlaces(allResults);
   }
-
-  setPlaces(allResults);
-}
-
-
-  
 
   const cards = places.map((place, i) => {
     return (
@@ -184,6 +189,16 @@ function App() {
         </hgroup>
       </header>
       <div className="mb-2 flex gap-x-2">
+        <button
+          className={`btn rounded-full border ${
+            activeFilter === "free"
+              ? "border-blue-500 bg-blue-500 text-white"
+              : "bg-white text-gray-700 hover:bg-gray-50"
+          }`}
+          onClick={() => getFree()}
+        >
+          free
+        </button>
         <button
           className={`btn rounded-full border ${
             activeFilter === "parks"
@@ -241,34 +256,6 @@ function App() {
           />
           <button className="btn btn-primary">Search</button>
         </div>
-      <h1>Third Place Finder</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-        repudiandae, eius ratione, reprehenderit ex incidunt, ad nesciunt iure
-        autem voluptatem deserunt perferendis vel voluptas neque ipsa nam
-        dolorem quia asperiores odit? Aspernatur velit eveniet ipsum.
-      </p>
-       <button className="border" onClick={() => getFree()}>
-        free
-      </button>
-      <button className="border" onClick={() => filterByType("parks")}>
-        parks
-      </button>
-      <button className="border" onClick={() => filterByType("library")}>
-        library
-      </button>
-      <button className="border" onClick={() => filterByType("cafe")}>
-        cafe
-      </button>
-      <form action={search}>
-        <input
-          name="query"
-          className="border"
-          type="search"
-          id="search"
-          placeholder="search"
-        />
-        <button className="border">Search</button>
       </form>
       <section className="space-y-4">{cards}</section>
     </>
